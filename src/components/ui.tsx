@@ -39,7 +39,7 @@ function Reveal({
         show();
         observer.disconnect();
       },
-      { threshold: 0.08, rootMargin: "0px 0px -12% 0px" },
+      { threshold: 0, rootMargin: "0px 0px -48px 0px" },
     );
 
     observer.observe(node);

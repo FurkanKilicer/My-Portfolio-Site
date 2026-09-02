@@ -314,3 +314,14 @@ html:not(.dark) .header-glass {
     animation: none;
   }
 }
+
+@media (max-width: 639px) {
+  .reveal-stagger > * > *,
+  .reveal.is-visible .reveal-stagger > * > *,
+  .reveal-stagger-items > *,
+  .reveal.is-visible .reveal-stagger-items > * {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
