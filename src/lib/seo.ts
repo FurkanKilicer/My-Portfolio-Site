@@ -55,6 +55,18 @@ export function getMetadata(): Metadata {
     alternates: {
       canonical: "/",
     },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", type: "image/x-icon" },
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+        { url: "/android-icon-192x192.png", sizes: "192x192", type: "image/png" },
+      ],
+      apple: [
+        { url: "/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
+      ],
+    },
     robots: {
       index: true,
       follow: true,
@@ -95,8 +107,9 @@ export function getJsonLd() {
       {
         "@type": "WebSite",
         "@id": websiteId,
-        url: siteUrl,
+        url: `${siteUrl}/`,
         name: SITE_NAME,
+        alternateName: ["Furkan Kilicer", "furkankilicer.com"],
         inLanguage: "tr",
         description: SITE_DESCRIPTION,
         publisher: { "@id": personId },
@@ -109,7 +122,7 @@ export function getJsonLd() {
         jobTitle: PERSON.jobTitle,
         email: PERSON.email,
         telephone: PERSON.telephone,
-        image: `${siteUrl}/icon.png`,
+        image: `${siteUrl}/android-icon-192x192.png`,
         address: {
           "@type": "PostalAddress",
           addressLocality: PERSON.locality,
