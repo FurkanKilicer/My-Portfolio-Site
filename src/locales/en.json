@@ -1,0 +1,851 @@
+{
+  "meta": {
+    "title": "Furkan Kılıçer — Senior Software Developer",
+    "description": "Senior Software Developer in Istanbul. At Kartega I ship product UIs with React, Next.js, and TypeScript—marketplaces, corporate sites, and payment surfaces."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "technologies": "Technologies",
+    "products": "Products",
+    "resume": "Resume",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/furkan-kilicer/",
+    "github": "https://github.com/furkan-kilicer",
+    "email": "furkn.klcr@gmail.com",
+    "phone": "+90 534 014 40 53",
+    "phoneHref": "tel:+905340144053"
+  },
+  "hero": {
+    "availability": "Available for senior frontend roles",
+    "name": "Furkan Kılıçer",
+    "roleLead": "Senior Software Developer",
+    "roleRest": " / Senior Frontend Developer",
+    "bio": "I have focused on web technologies since university. I have been shipping software since 2020, and since January 2021 I have been building, maintaining, and evolving real products at Kartega. I work with React, Next.js, TypeScript, and Redux on scalable, responsive interfaces.",
+    "viewProducts": "View Products",
+    "viewResume": "View resume",
+    "location": "Istanbul, Türkiye",
+    "stats": [
+      {
+        "label": "Years of experience",
+        "value": "6+"
+      },
+      {
+        "label": "Primary discipline",
+        "value": "Frontend"
+      },
+      {
+        "label": "Core stack",
+        "value": "React / Next.js / TypeScript",
+        "href": "#technologies",
+        "hint": "See the full stack"
+      }
+    ]
+  },
+  "about": {
+    "index": "01",
+    "label": "About",
+    "title": "Frontend engineering, with product context.",
+    "blocks": [
+      {
+        "heading": "Background",
+        "body": "I graduated from Nişantaşı University Computer Engineering on a full scholarship (3.49 GPA). From school onward I built a habit of research, problem-solving, and picking up new technologies quickly."
+      },
+      {
+        "heading": "Current role",
+        "body": "I am a Senior Software Developer at Kartega Yazılım ve Danışmanlık A.Ş. I have been with the company since January 2021, and in the senior role since January 2025 — owning interface architecture, delivery, and maintenance with product teams."
+      },
+      {
+        "heading": "Engineering interests",
+        "body": "Clean code, SCSS/SASS structure, complex Redux flows, API integration, error handling, performance, and responsive interfaces. I work in a solution-oriented, disciplined way and keep learning."
+      }
+    ],
+    "expertiseTitle": "Areas of expertise",
+    "expertise": [
+      "React / Next.js application development",
+      "TypeScript and Redux state management",
+      "Ant Design, Tailwind, and Styled-components",
+      "REST API integration and error handling",
+      "Responsive, user-focused interfaces",
+      "Performance and site-structure optimization"
+    ]
+  },
+  "experience": {
+    "index": "02",
+    "label": "Experience",
+    "title": "Six years of shipping production interfaces.",
+    "summary": "Career progression from agency web work to a senior frontend role at Kartega, shipping and evolving production product interfaces.",
+    "responsibilitiesLabel": "Responsibilities",
+    "contributionsLabel": "Key contributions",
+    "productsLabel": "Products",
+    "items": [
+      {
+        "role": "Senior Software Developer",
+        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
+        "location": "Istanbul",
+        "period": "January 2025 — Present",
+        "overview": "Own frontend architecture, delivery, and maintenance across production product surfaces with Next.js, React, and TypeScript.",
+        "responsibilities": [
+          "Shape the architecture of Next.js + TypeScript product UIs",
+          "Own delivery quality across marketplaces, corporate sites, and operations surfaces",
+          "Strengthen sustainable code structure and performance practices in the team"
+        ],
+        "contributions": [
+          "Clarified a shared frontend discipline across multiple product surfaces",
+          "Simplified delivery and maintenance on complex interfaces",
+          "Strengthened scalable state management with TypeScript and Redux"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Tailwind",
+          "Ant Design"
+        ],
+        "products": [
+          "Azerlotereya",
+          "BEK Marketplace",
+          "DG Marketplace",
+          "Kartega Site"
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
+        "location": "Istanbul",
+        "period": "January 2021 — January 2025",
+        "overview": "Designed, built, and maintained a wide range of customer and product interfaces from scratch into production.",
+        "responsibilities": [
+          "Build responsive interfaces with React, Redux, Next.js, Ant Design, and SCSS",
+          "Run REST API integration, error handling, and site optimization",
+          "Deliver end-to-end frontend for corporate, payments, and operations products"
+        ],
+        "contributions": [
+          "Shipped products including Azerlotereya, Footboss, Destekbilişim / Onlinebuyback, and Lidio LAB",
+          "Contributed to SistemBul, Hyundai Intraport, and Kemer Country interfaces",
+          "Owned maintenance and performance updates on production products"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "Redux",
+          "Ant Design",
+          "SCSS",
+          "Styled-components"
+        ],
+        "products": [
+          "Footboss",
+          "Destekbilişim",
+          "Onlinebuyback",
+          "Lidio LAB",
+          "SistemBul",
+          "Hyundai (Intraport)",
+          "THY Opet"
+        ]
+      },
+      {
+        "role": "Teaching Assistant",
+        "company": "Kodluyoruz",
+        "location": "Istanbul",
+        "period": "May 2021 — November 2021",
+        "overview": "Supported frontend training programs across two cohorts.",
+        "responsibilities": [
+          "Support training sessions in May–July and September–November",
+          "Help participants progress on frontend topics"
+        ],
+        "contributions": [
+          "Provided troubleshooting and feedback in practical sessions",
+          "Accelerated learning on core React and web fundamentals"
+        ],
+        "stack": [
+          "React",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "products": []
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Optimist Hub | 360 Kreatif Dijital Ajans",
+        "location": "Istanbul",
+        "period": "February 2020 — June 2020",
+        "overview": "Delivered customer-facing web pages and site updates for agency projects.",
+        "responsibilities": [
+          "Build and update interfaces for agency work",
+          "Ship customer pages with HTML, JavaScript, and jQuery"
+        ],
+        "contributions": [
+          "Enabled fast iteration on campaign and corporate pages",
+          "Handled maintenance and small feature work on existing sites"
+        ],
+        "stack": [
+          "HTML",
+          "JavaScript",
+          "jQuery",
+          "CSS"
+        ],
+        "products": []
+      }
+    ]
+  },
+  "technologies": {
+    "index": "03",
+    "label": "Technologies",
+    "title": "Tools I use in day-to-day work.",
+    "groups": [
+      {
+        "title": "Interface",
+        "items": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "HTML5",
+          "Ant Design",
+          "Tailwind",
+          "SCSS",
+          "Styled-components",
+          "Bootstrap",
+          "Figma"
+        ]
+      },
+      {
+        "title": "State and data",
+        "items": [
+          "Redux",
+          "Redux Toolkit",
+          "REST API",
+          "jQuery"
+        ]
+      },
+      {
+        "title": "Other",
+        "items": [
+          "AngularJS",
+          "ASP.Net",
+          "Jenkins",
+          "UI/UX",
+          "Responsive design",
+          "English (intermediate)"
+        ]
+      },
+      {
+        "title": "AI",
+        "items": [
+          "Cursor",
+          "Gemini",
+          "Lovable",
+          "ChatGPT",
+          "Google Stitch"
+        ]
+      }
+    ]
+  },
+  "products": {
+    "index": "04",
+    "label": "Products",
+    "title": "Real products, built with real constraints.",
+    "items": [
+      {
+        "name": "Azerlotereya",
+        "description": "Next.js product UI built with TypeScript, Redux, Ophelia, and Tailwind.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Ophelia",
+          "Tailwind"
+        ],
+        "company": "KARTEGA",
+        "visual": "map",
+        "image": "/products/azerlotereya.jpg",
+        "period": "2024 — Present",
+        "tagline": "Product UI for lottery and campaign operations",
+        "role": "Senior Software Developer — frontend lead",
+        "overview": "I grew the production lottery product surface with Next.js and TypeScript. We shipped an interface that speeds up daily operations and stays maintainable.",
+        "workedOn": [
+          "Product UI architecture and page flows",
+          "Complex state with Redux",
+          "Consistent UI layer with Ophelia and Tailwind"
+        ],
+        "contributions": [
+          "Strengthened TypeScript discipline without slowing delivery",
+          "Improved readability of operations screens",
+          "Established a shared component layout that lowered maintenance cost"
+        ]
+      },
+      {
+        "name": "Footboss",
+        "description": "Product surface on Next.js and Tailwind, with Redux and Ophelia.",
+        "stack": [
+          "Next.js",
+          "Tailwind",
+          "Redux",
+          "Ophelia"
+        ],
+        "company": "KARTEGA",
+        "visual": "catalog",
+        "image": "/products/footboss.jpg",
+        "period": "2022 — 2024",
+        "tagline": "Football content and product surface",
+        "role": "Software Developer",
+        "overview": "I shipped content and transaction flows on a Next.js and Tailwind product surface, with a consistent Redux and Ophelia layer.",
+        "workedOn": [
+          "Product pages and navigation",
+          "State management and API wiring",
+          "Responsive layout and component set"
+        ],
+        "contributions": [
+          "Kept performance stable on content-heavy screens",
+          "Turned shared UI patterns into reusable pieces",
+          "Owned post-launch maintenance updates"
+        ]
+      },
+      {
+        "name": "BEK Marketplace",
+        "description": "Marketplace UI with Next.js, Ant Design, Styled-components, and Redux.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "Styled-components",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2024 — Present",
+        "tagline": "Bulk ordering and catalog marketplace",
+        "visual": "catalog",
+        "image": "/products/bek-marketplace.png",
+        "url": "https://www.coofa.com.tr/",
+        "role": "Software Developer",
+        "overview": "Marketplace UI with Next.js, Ant Design, Styled-components, and Redux.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "DG Marketplace",
+        "description": "Marketplace product with Next.js, Ant Design, Styled-components, and Redux.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "Styled-components",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2024 — Present",
+        "tagline": "Marketplace surface for distributors",
+        "visual": "catalog",
+        "overlay": "Information privacy",
+        "role": "Software Developer",
+        "overview": "Marketplace product with Next.js, Ant Design, Styled-components, and Redux.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Hyundai (Intraport)",
+        "description": "Internal corporate portal UI with React, Ant Design, and Redux.",
+        "stack": [
+          "React",
+          "Ant Design",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2023 — 2024",
+        "tagline": "Internal corporate portal UI",
+        "visual": "portal",
+        "image": "/products/hyundai.jpg",
+        "url": "https://hyundai.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Internal corporate portal UI with React, Ant Design, and Redux.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "GAIN",
+        "description": "Product UI with TypeScript, SCSS, and AngularJS.",
+        "stack": [
+          "TypeScript",
+          "SCSS",
+          "AngularJS"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Reporting and product operations surface",
+        "visual": "dashboard",
+        "image": "/products/gain.jpg",
+        "url": "https://www.gain.tv/",
+        "role": "Software Developer",
+        "overview": "Product UI with TypeScript, SCSS, and AngularJS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Kartega Site",
+        "description": "Company website with Next.js, Redux, Ant Design, and SCSS.",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "Ant Design",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2024 — Present",
+        "tagline": "Company website and showcase",
+        "visual": "docs",
+        "image": "/products/kartega-site.png",
+        "url": "https://www.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Company website with Next.js, Redux, Ant Design, and SCSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Destekbilişim",
+        "description": "Customer-facing UI with React, Redux, JavaScript, and SCSS.",
+        "stack": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Customer support and transaction UI",
+        "visual": "dashboard",
+        "image": "/products/destekbilisim.png",
+        "url": "https://destekbuyback.com/",
+        "role": "Software Developer",
+        "overview": "Customer-facing UI with React, Redux, JavaScript, and SCSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Onlinebuyback",
+        "description": "Buyback product UI with React, Redux, JavaScript, and SCSS.",
+        "stack": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Buyback product interface",
+        "visual": "catalog",
+        "image": "/products/onlinebuyback.png",
+        "url": "https://onlinebuyback.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Buyback product UI with React, Redux, JavaScript, and SCSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Arena",
+        "description": "Next.js product with Redux, Ant Design, and SCSS.",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "Ant Design",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2024",
+        "tagline": "Operations and content panel",
+        "visual": "dashboard",
+        "image": "/products/arena.png",
+        "role": "Software Developer",
+        "overview": "Next.js product with Redux, Ant Design, and SCSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Ersey Kurumsal",
+        "description": "Corporate web UI with Next.js, Ant Design, and Redux.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Corporate web UI",
+        "visual": "portal",
+        "image": "/products/ersey-makina.jpg",
+        "url": "https://erseymakina.com/",
+        "role": "Software Developer",
+        "overview": "Corporate web UI with Next.js, Ant Design, and Redux.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Deniz Akvaryum",
+        "description": "Product UI with React, Redux, and Ant Design.",
+        "stack": [
+          "React",
+          "Redux",
+          "Ant Design"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Product showcase and catalog",
+        "visual": "catalog",
+        "image": "/products/deniz-akvaryum.png",
+        "url": "https://denizakvaryum.io/",
+        "role": "Software Developer",
+        "overview": "Product UI with React, Redux, and Ant Design.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Kemer Country",
+        "description": "Next.js corporate surface with Ant Design and SCSS.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Corporate site surface",
+        "visual": "portal",
+        "image": "/products/kemer-country.jpg",
+        "url": "https://www.kemercountry.com/",
+        "role": "Software Developer",
+        "overview": "Next.js corporate surface with Ant Design and SCSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "SansGroup",
+        "description": "Corporate UI with Next.js and Ant Design.",
+        "stack": [
+          "Next.js",
+          "Ant Design"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Corporate presentation UI",
+        "visual": "docs",
+        "image": "/products/sansgroup.png",
+        "url": "https://www.sansgroup.com/",
+        "role": "Software Developer",
+        "overview": "Corporate UI with Next.js and Ant Design.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Lidio Lab",
+        "description": "Payments documentation and integration portal with ASP.Net, Bootstrap, and jQuery.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap",
+          "jQuery"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Docs and integration portal",
+        "visual": "docs",
+        "image": "/products/lidio-lab.png",
+        "url": "https://lab.lidio.com/",
+        "role": "Software Developer",
+        "overview": "Payments documentation and integration portal with ASP.Net, Bootstrap, and jQuery.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Lidio Site",
+        "description": "Lidio corporate payments website with ASP.Net, Bootstrap, and jQuery.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap",
+          "jQuery"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Corporate payments website",
+        "visual": "catalog",
+        "image": "/products/lidio-site.png",
+        "url": "https://www.lidio.com/",
+        "role": "Software Developer",
+        "overview": "Lidio corporate payments website with ASP.Net, Bootstrap, and jQuery.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Paynet Kurumsal",
+        "description": "Corporate payments surface with ASP.Net, jQuery, and SCSS.",
+        "stack": [
+          "ASP.Net",
+          "jQuery",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Corporate payments surface",
+        "visual": "dashboard",
+        "image": "/products/paynet.png",
+        "url": "https://www.paynet.com.tr/",
+        "role": "Software Developer",
+        "overview": "Corporate payments surface with ASP.Net, jQuery, and SCSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "Sistembul",
+        "description": "Web product with ASP.Net and Bootstrap.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Web product and listing surface",
+        "visual": "portal",
+        "image": "/products/sistembul.png",
+        "url": "https://www.sistembul.com/",
+        "role": "Software Developer",
+        "overview": "Web product with ASP.Net and Bootstrap.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "KIP Site",
+        "description": "Corporate site with ASP.Net, Bootstrap, HTML, and CSS.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap",
+          "HTML",
+          "CSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Corporate site",
+        "visual": "docs",
+        "overlay": "Information privacy",
+        "url": "https://bilife.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Corporate site with ASP.Net, Bootstrap, HTML, and CSS.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      },
+      {
+        "name": "THY Opet",
+        "description": "Campaign / product page with HTML, JavaScript, and jQuery.",
+        "stack": [
+          "HTML",
+          "JavaScript",
+          "jQuery"
+        ],
+        "company": "KARTEGA",
+        "period": "2020",
+        "tagline": "Campaign / product page",
+        "visual": "portal",
+        "image": "/products/thy-opet.png",
+        "url": "https://www.thyopet.com/ana-sayfa",
+        "role": "Software Developer",
+        "overview": "Campaign / product page with HTML, JavaScript, and jQuery.",
+        "workedOn": [
+          "UI development and page flows",
+          "API integration and error handling",
+          "Responsive, maintainable UI"
+        ],
+        "contributions": [
+          "Shipped production UI",
+          "Maintenance and iteration",
+          "Frontend discipline in the team"
+        ]
+      }
+    ],
+    "summary": "Select a product to expand its details — role, technologies and contributions.",
+    "detailsCta": "View product details",
+    "cardCta": "Details",
+    "visitSiteCta": "Visit site",
+    "roleShortLabel": "ROLE",
+    "roleLabel": "MY ROLE",
+    "overviewLabel": "OVERVIEW",
+    "workedOnLabel": "WHAT I WORKED ON",
+    "contributionsLabel": "CONTRIBUTIONS",
+    "closeLabel": "Close"
+  },
+  "resume": {
+    "index": "05",
+    "label": "Resume",
+    "title": "Short summary.",
+    "summary": "Senior Software Developer. Computer Engineering graduate from Nişantaşı University. Building product UIs at Kartega since 2021 with React, Next.js, TypeScript, and Redux.",
+    "highlights": [
+      "Kartega — Senior Software Developer (January 2025 — )",
+      "Kartega — Software Developer (January 2021 — January 2025)",
+      "Nişantaşı University, Computer Engineering — full scholarship, 3.49 GPA",
+      "English: speaking / writing / reading intermediate"
+    ]
+  },
+  "contact": {
+    "index": "05",
+    "label": "Contact",
+    "title": "Building something that needs a senior frontend developer?",
+    "summary": "The quickest way to reach me is email. I usually reply within a day.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub"
+  },
+  "footer": {
+    "credit": "Furkan Kılıçer — Senior Frontend Developer",
+    "built": "© 2026 · Built with Next.js"
+  },
+  "notFound": {
+    "code": "404",
+    "label": "Page not found",
+    "title": "This path isn’t on the site.",
+    "summary": "The link may be outdated, or there might be a typo. Head home to browse products or get in touch.",
+    "home": "Back to home",
+    "contact": "Contact"
+  },
+  "a11y": {
+    "linkedin": "LinkedIn profile",
+    "github": "GitHub profile",
+    "toggleTheme": "Toggle theme",
+    "language": "Language",
+    "scrollProgress": "Page scroll",
+    "skipToContent": "Skip to content"
+  }
+}

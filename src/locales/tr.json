@@ -1,0 +1,851 @@
+{
+  "meta": {
+    "title": "Furkan Kılıçer — Senior Software Developer",
+    "description": "İstanbul’da Senior Software Developer. Kartega’da React, Next.js ve TypeScript ile ürün arayüzleri; pazar yeri, kurumsal site ve ödeme yüzeyleri geliştiriyor."
+  },
+  "nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "technologies": "Teknolojiler",
+    "products": "Ürünler",
+    "resume": "Özgeçmiş",
+    "contact": "İletişim",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/furkan-kilicer/",
+    "github": "https://github.com/furkan-kilicer",
+    "email": "furkn.klcr@gmail.com",
+    "phone": "+90 534 014 40 53",
+    "phoneHref": "tel:+905340144053"
+  },
+  "hero": {
+    "availability": "Kıdemli frontend rollerine açığım",
+    "name": "Furkan Kılıçer",
+    "roleLead": "Senior Software Developer",
+    "roleRest": " / Senior Frontend Developer",
+    "bio": "Üniversiteden bu yana web teknolojilerine odaklandım. 2020’den beri aktif olarak yazılım geliştiriyor, Ocak 2021’den beri Kartega bünyesinde gerçek ürünlerde tasarım, geliştirme ve bakım süreçlerini yürütüyorum. React, Next.js, TypeScript ve Redux ile ölçeklenebilir, duyarlı arayüzler kuruyorum.",
+    "viewProducts": "Ürünleri Gör",
+    "viewResume": "Özgeçmişi gör",
+    "location": "İstanbul, Türkiye",
+    "stats": [
+      {
+        "label": "Deneyim yılı",
+        "value": "6+"
+      },
+      {
+        "label": "Ana disiplin",
+        "value": "Frontend"
+      },
+      {
+        "label": "Çekirdek yığın",
+        "value": "React / Next.js / TypeScript",
+        "href": "#technologies",
+        "hint": "Tüm yığını gör"
+      }
+    ]
+  },
+  "about": {
+    "index": "01",
+    "label": "Hakkımda",
+    "title": "Ürün bağlamında frontend mühendisliği.",
+    "blocks": [
+      {
+        "heading": "Geçmiş",
+        "body": "Nişantaşı Üniversitesi Bilgisayar Mühendisliği’ni tam burslu bitirdim (3.49). Eğitim sürecinden itibaren araştırma, problem çözme ve yeni teknolojilere hızlı uyum konularında kendimi sürekli geliştirdim."
+      },
+      {
+        "heading": "Güncel rol",
+        "body": "Kartega Yazılım ve Danışmanlık A.Ş.’de Senior Software Developer olarak çalışıyorum. Ocak 2021’den bu yana şirket bünyesinde; Ocak 2025’ten itibaren senior unvanıyla ürün ekiplerinde arayüz mimarisi, teslimat ve bakım sorumluluğu alıyorum."
+      },
+      {
+        "heading": "Mühendislik ilgileri",
+        "body": "Temiz kod, SCSS/SASS yapıları, Redux ile karmaşık akışlar, API entegrasyonu, hata yönetimi, performans ve duyarlı arayüzler. Öğrenmeye açık, çözüm odaklı ve disiplinli bir çalışma yaklaşımı benimsiyorum."
+      }
+    ],
+    "expertiseTitle": "Uzmanlık alanları",
+    "expertise": [
+      "React / Next.js uygulama geliştirme",
+      "TypeScript ve Redux ile durum yönetimi",
+      "Ant Design, Tailwind ve Styled-components",
+      "REST API entegrasyonu ve hata yönetimi",
+      "Responsive ve kullanıcı odaklı arayüzler",
+      "Performans ve site yapısı optimizasyonu"
+    ]
+  },
+  "experience": {
+    "index": "02",
+    "label": "Deneyim",
+    "title": "Altı yıldır üretim arayüzleri teslim ediyorum.",
+    "summary": "Ajans işlerinden Kartega’da senior frontend rolüne: üretimdeki ürün arayüzlerini teslim etme ve büyütme.",
+    "responsibilitiesLabel": "Sorumluluklar",
+    "contributionsLabel": "Katkılar",
+    "productsLabel": "Ürünler",
+    "items": [
+      {
+        "role": "Senior Software Developer",
+        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
+        "location": "İstanbul",
+        "period": "Ocak 2025 — Günümüz",
+        "overview": "Ürün arayüzlerinin mimarisini, teslimatını ve bakımını üstleniyor; Next.js, React ve TypeScript ile üretimdeki yüzeyleri yönetiyorum.",
+        "responsibilities": [
+          "Next.js + TypeScript ürün arayüzlerinin mimarisini kurgulamak",
+          "Pazar yeri, kurumsal site ve operasyon panellerinde teslimat kalitesini sahiplenmek",
+          "Ekip içinde sürdürülebilir kod düzeni ve performans yaklaşımını güçlendirmek"
+        ],
+        "contributions": [
+          "Çoklu ürün yüzeylerinde ortak frontend disiplinini netleştirdim",
+          "Karmaşık arayüzlerde teslimat ve bakım süreçlerini sadeleştirdim",
+          "TypeScript ve Redux ile ölçeklenen durum yönetimini güçlendirdim"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Tailwind",
+          "Ant Design"
+        ],
+        "products": [
+          "Azerlotereya",
+          "BEK Marketplace",
+          "DG Marketplace",
+          "Kartega Site"
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
+        "location": "İstanbul",
+        "period": "Ocak 2021 — Ocak 2025",
+        "overview": "Sıfırdan tasarım, geliştirme ve bakımla çok sayıda müşteri ve ürün arayüzünü üretime aldım.",
+        "responsibilities": [
+          "React, Redux, Next.js, Ant Design ve SCSS ile duyarlı arayüzler geliştirmek",
+          "REST API entegrasyonu, hata yönetimi ve site optimizasyonları yürütmek",
+          "Kurumsal, ödeme ve operasyon ürünlerinde uçtan uca frontend teslimatı yapmak"
+        ],
+        "contributions": [
+          "Azerlotereya, Footboss, Destekbilişim / Onlinebuyback ve Lidio LAB gibi ürünleri teslim ettim",
+          "SistemBul, Hyundai Intraport ve Kemer Country arayüzlerinde yer aldım",
+          "Üretimdeki ürünlerde bakım ve performans güncellemelerini yürüttüm"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "Redux",
+          "Ant Design",
+          "SCSS",
+          "Styled-components"
+        ],
+        "products": [
+          "Footboss",
+          "Destekbilişim",
+          "Onlinebuyback",
+          "Lidio LAB",
+          "SistemBul",
+          "Hyundai (Intraport)",
+          "THY Opet"
+        ]
+      },
+      {
+        "role": "Teaching Assistant",
+        "company": "Kodluyoruz",
+        "location": "İstanbul",
+        "period": "Mayıs 2021 — Kasım 2021",
+        "overview": "İki dönemde frontend eğitim süreçlerinde katılımcılara asistanlık yaptım.",
+        "responsibilities": [
+          "Mayıs–Temmuz ve Eylül–Kasım dönemlerinde eğitimlere destek olmak",
+          "Katılımcıların frontend konularında ilerlemesine yardımcı olmak"
+        ],
+        "contributions": [
+          "Uygulama oturumlarında sorun çözme ve geri bildirim sağladım",
+          "Temel React ve web konularında öğrenme sürecini hızlandırdım"
+        ],
+        "stack": [
+          "React",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "products": []
+      },
+      {
+        "role": "Junior Web Developer",
+        "company": "Optimist Hub | 360 Kreatif Dijital Ajans",
+        "location": "İstanbul",
+        "period": "Şubat 2020 — Haziran 2020",
+        "overview": "Ajans projelerinde müşteri yüzlü web sayfaları ve site güncellemeleri teslim ettim.",
+        "responsibilities": [
+          "Ajans işlerinde arayüz geliştirme ve güncelleme yapmak",
+          "HTML, JavaScript ve jQuery ile müşteri sayfaları teslim etmek"
+        ],
+        "contributions": [
+          "Kampanya ve kurumsal sayfalarda hızlı iterasyon sağladım",
+          "Mevcut sitelerde bakım ve küçük özellik geliştirmeleri yaptım"
+        ],
+        "stack": [
+          "HTML",
+          "JavaScript",
+          "jQuery",
+          "CSS"
+        ],
+        "products": []
+      }
+    ]
+  },
+  "technologies": {
+    "index": "03",
+    "label": "Teknolojiler",
+    "title": "Günlük işte kullandığım araçlar.",
+    "groups": [
+      {
+        "title": "Arayüz",
+        "items": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "HTML5",
+          "Ant Design",
+          "Tailwind",
+          "SCSS",
+          "Styled-components",
+          "Bootstrap",
+          "Figma"
+        ]
+      },
+      {
+        "title": "Durum ve veri",
+        "items": [
+          "Redux",
+          "Redux Toolkit",
+          "REST API",
+          "jQuery"
+        ]
+      },
+      {
+        "title": "Diğer",
+        "items": [
+          "AngularJS",
+          "ASP.Net",
+          "Jenkins",
+          "UI/UX",
+          "Responsive design",
+          "İngilizce (orta)"
+        ]
+      },
+      {
+        "title": "Yapay zeka",
+        "items": [
+          "Cursor",
+          "Gemini",
+          "Lovable",
+          "ChatGPT",
+          "Google Stitch"
+        ]
+      }
+    ]
+  },
+  "products": {
+    "index": "04",
+    "label": "Ürünler",
+    "title": "Gerçek kısıtlarla üretilmiş gerçek ürünler.",
+    "items": [
+      {
+        "name": "Azerlotereya",
+        "description": "Next.js tabanlı ürün arayüzü; TypeScript, Redux, Ophelia ve Tailwind ile geliştirildi.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Ophelia",
+          "Tailwind"
+        ],
+        "company": "KARTEGA",
+        "visual": "map",
+        "image": "/products/azerlotereya.jpg",
+        "period": "2024 — Günümüz",
+        "tagline": "Piyango ve kampanya operasyonu için ürün arayüzü",
+        "role": "Senior Software Developer — frontend lead",
+        "overview": "Next.js ve TypeScript ile üretimdeki piyango ürün yüzeyini büyüttüm. Operasyon ekiplerinin günlük işini hızlandıran, bakımı sürdürülebilir bir arayüz kurduk.",
+        "workedOn": [
+          "Ürün arayüzü mimarisi ve sayfa akışları",
+          "Redux ile karmaşık durum yönetimi",
+          "Ophelia ve Tailwind ile tutarlı UI katmanı"
+        ],
+        "contributions": [
+          "Teslimat hızını bozmadan TypeScript disiplinini güçlendirdim",
+          "Operasyon ekranlarında okunabilirliği artırdım",
+          "Bakım maliyetini düşüren ortak bileşen düzeni kurdum"
+        ]
+      },
+      {
+        "name": "Footboss",
+        "description": "Next.js ve Tailwind ile kurgulanmış ürün yüzeyi; Redux ve Ophelia katmanı.",
+        "stack": [
+          "Next.js",
+          "Tailwind",
+          "Redux",
+          "Ophelia"
+        ],
+        "company": "KARTEGA",
+        "visual": "catalog",
+        "image": "/products/footboss.jpg",
+        "period": "2022 — 2024",
+        "tagline": "Futbol içeriği ve ürün yüzeyi",
+        "role": "Software Developer",
+        "overview": "Next.js ve Tailwind ile kurgulanan ürün yüzeyinde içerik ve işlem akışlarını teslim ettim. Redux ve Ophelia katmanıyla tutarlı bir arayüz oluşturduk.",
+        "workedOn": [
+          "Ürün sayfaları ve navigasyon",
+          "Durum yönetimi ve API bağları",
+          "Duyarlı layout ve bileşen seti"
+        ],
+        "contributions": [
+          "İçerik yoğun ekranlarda performansı korudum",
+          "Ortak UI kalıplarını tekrar kullanılabilir hale getirdim",
+          "Teslimattan sonra bakım güncellemelerini yürüttüm"
+        ]
+      },
+      {
+        "name": "BEK Marketplace",
+        "description": "Pazar yeri arayüzü. Next.js, Ant Design, Styled-components ve Redux.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "Styled-components",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2024 — Günümüz",
+        "tagline": "Toplu sipariş ve katalog pazar yeri",
+        "visual": "catalog",
+        "image": "/products/bek-marketplace.png",
+        "url": "https://www.coofa.com.tr/",
+        "role": "Software Developer",
+        "overview": "Pazar yeri arayüzü. Next.js, Ant Design, Styled-components ve Redux.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "DG Marketplace",
+        "description": "Pazar yeri ürünü. Next.js, Ant Design, Styled-components ve Redux.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "Styled-components",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2024 — Günümüz",
+        "tagline": "Distribütörler için pazar yeri yüzeyi",
+        "visual": "catalog",
+        "overlay": "Bilgi gizliliği",
+        "role": "Software Developer",
+        "overview": "Pazar yeri ürünü. Next.js, Ant Design, Styled-components ve Redux.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Hyundai (Intraport)",
+        "description": "Kurumsal iç portal arayüzü. React, Ant Design ve Redux.",
+        "stack": [
+          "React",
+          "Ant Design",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2023 — 2024",
+        "tagline": "Kurumsal iç portal arayüzü",
+        "visual": "portal",
+        "image": "/products/hyundai.jpg",
+        "url": "https://hyundai.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Kurumsal iç portal arayüzü. React, Ant Design ve Redux.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "GAIN",
+        "description": "TypeScript ve SCSS ile AngularJS tabanlı ürün arayüzü.",
+        "stack": [
+          "TypeScript",
+          "SCSS",
+          "AngularJS"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Raporlama ve ürün operasyon yüzeyi",
+        "visual": "dashboard",
+        "image": "/products/gain.jpg",
+        "url": "https://www.gain.tv/",
+        "role": "Software Developer",
+        "overview": "TypeScript ve SCSS ile AngularJS tabanlı ürün arayüzü.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Kartega Site",
+        "description": "Şirket web sitesi. Next.js, Redux, Ant Design ve SCSS.",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "Ant Design",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2024 — Günümüz",
+        "tagline": "Şirket web sitesi ve vitrin",
+        "visual": "docs",
+        "image": "/products/kartega-site.png",
+        "url": "https://www.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Şirket web sitesi. Next.js, Redux, Ant Design ve SCSS.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Destekbilişim",
+        "description": "React ve Redux ile geliştirilmiş müşteri yüzü; JavaScript ve SCSS.",
+        "stack": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Müşteri destek ve işlem yüzeyi",
+        "visual": "dashboard",
+        "image": "/products/destekbilisim.png",
+        "url": "https://destekbuyback.com/",
+        "role": "Software Developer",
+        "overview": "React ve Redux ile geliştirilmiş müşteri yüzü; JavaScript ve SCSS.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Onlinebuyback",
+        "description": "Buyback ürün arayüzü. React, Redux, JavaScript ve SCSS.",
+        "stack": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Buyback ürün arayüzü",
+        "visual": "catalog",
+        "image": "/products/onlinebuyback.png",
+        "url": "https://onlinebuyback.kartega.com/",
+        "role": "Software Developer",
+        "overview": "Buyback ürün arayüzü. React, Redux, JavaScript ve SCSS.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Arena",
+        "description": "Next.js ürünü; Redux, Ant Design ve SCSS.",
+        "stack": [
+          "Next.js",
+          "Redux",
+          "Ant Design",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2024",
+        "tagline": "Operasyon ve içerik paneli",
+        "visual": "dashboard",
+        "image": "/products/arena.png",
+        "role": "Software Developer",
+        "overview": "Next.js ürünü; Redux, Ant Design ve SCSS.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Ersey Kurumsal",
+        "description": "Kurumsal web arayüzü. Next.js, Ant Design ve Redux.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "Redux"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Kurumsal web arayüzü",
+        "visual": "portal",
+        "image": "/products/ersey-makina.jpg",
+        "url": "https://erseymakina.com/",
+        "role": "Software Developer",
+        "overview": "Kurumsal web arayüzü. Next.js, Ant Design ve Redux.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Deniz Akvaryum",
+        "description": "React, Redux ve Ant Design ile ürün arayüzü.",
+        "stack": [
+          "React",
+          "Redux",
+          "Ant Design"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Ürün vitrini ve katalog",
+        "visual": "catalog",
+        "image": "/products/deniz-akvaryum.png",
+        "url": "https://denizakvaryum.io/",
+        "role": "Software Developer",
+        "overview": "React, Redux ve Ant Design ile ürün arayüzü.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Kemer Country",
+        "description": "Next.js kurumsal yüzeyi; Ant Design ve SCSS.",
+        "stack": [
+          "Next.js",
+          "Ant Design",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Kurumsal site yüzeyi",
+        "visual": "portal",
+        "image": "/products/kemer-country.jpg",
+        "url": "https://www.kemercountry.com/",
+        "role": "Software Developer",
+        "overview": "Next.js kurumsal yüzeyi; Ant Design ve SCSS.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "SansGroup",
+        "description": "Next.js ve Ant Design ile kurumsal arayüz.",
+        "stack": [
+          "Next.js",
+          "Ant Design"
+        ],
+        "company": "KARTEGA",
+        "period": "2022 — 2023",
+        "tagline": "Kurumsal tanıtım arayüzü",
+        "visual": "docs",
+        "image": "/products/sansgroup.png",
+        "url": "https://www.sansgroup.com/",
+        "role": "Software Developer",
+        "overview": "Next.js ve Ant Design ile kurumsal arayüz.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Lidio Lab",
+        "description": "Ödeme dokümantasyonu ve entegrasyon portalı. ASP.Net, Bootstrap ve jQuery.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap",
+          "jQuery"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Dokümantasyon ve entegrasyon portalı",
+        "visual": "docs",
+        "image": "/products/lidio-lab.png",
+        "url": "https://lab.lidio.com/",
+        "role": "Software Developer",
+        "overview": "Ödeme dokümantasyonu ve entegrasyon portalı. ASP.Net, Bootstrap ve jQuery.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Lidio Site",
+        "description": "Lidio kurumsal ödeme sitesi. ASP.Net, Bootstrap ve jQuery.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap",
+          "jQuery"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2023",
+        "tagline": "Kurumsal ödeme sitesi",
+        "visual": "catalog",
+        "image": "/products/lidio-site.png",
+        "url": "https://www.lidio.com/",
+        "role": "Software Developer",
+        "overview": "Lidio kurumsal ödeme sitesi. ASP.Net, Bootstrap ve jQuery.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Paynet Kurumsal",
+        "description": "Kurumsal ödeme yüzeyi. ASP.Net, jQuery ve SCSS.",
+        "stack": [
+          "ASP.Net",
+          "jQuery",
+          "SCSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Kurumsal ödeme yüzeyi",
+        "visual": "dashboard",
+        "image": "/products/paynet.png",
+        "url": "https://www.paynet.com.tr/",
+        "role": "Software Developer",
+        "overview": "Kurumsal ödeme yüzeyi. ASP.Net, jQuery ve SCSS.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "Sistembul",
+        "description": "ASP.Net ve Bootstrap ile web ürünü.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Web ürün ve listeleme yüzeyi",
+        "visual": "portal",
+        "image": "/products/sistembul.png",
+        "url": "https://www.sistembul.com/",
+        "role": "Software Developer",
+        "overview": "ASP.Net ve Bootstrap ile web ürünü.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "KIP Site",
+        "description": "ASP.Net, Bootstrap, HTML ve CSS ile kurumsal site.",
+        "stack": [
+          "ASP.Net",
+          "Bootstrap",
+          "HTML",
+          "CSS"
+        ],
+        "company": "KARTEGA",
+        "period": "2021 — 2022",
+        "tagline": "Kurumsal site",
+        "visual": "docs",
+        "overlay": "Bilgi gizliliği",
+        "url": "https://bilife.kartega.com/",
+        "role": "Software Developer",
+        "overview": "ASP.Net, Bootstrap, HTML ve CSS ile kurumsal site.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      },
+      {
+        "name": "THY Opet",
+        "description": "HTML, JavaScript ve jQuery ile kampanya / ürün sayfası.",
+        "stack": [
+          "HTML",
+          "JavaScript",
+          "jQuery"
+        ],
+        "company": "KARTEGA",
+        "period": "2020",
+        "tagline": "Kampanya / ürün sayfası",
+        "visual": "portal",
+        "image": "/products/thy-opet.png",
+        "url": "https://www.thyopet.com/ana-sayfa",
+        "role": "Software Developer",
+        "overview": "HTML, JavaScript ve jQuery ile kampanya / ürün sayfası.",
+        "workedOn": [
+          "Arayüz geliştirme ve sayfa akışları",
+          "API entegrasyonu ve hata yönetimi",
+          "Duyarlı ve bakımı mümkün UI"
+        ],
+        "contributions": [
+          "Üretimde teslim edilen arayüz",
+          "Bakım ve iterasyon",
+          "Ekip içinde frontend disiplini"
+        ]
+      }
+    ],
+    "summary": "Bir ürün seçerek rol, teknolojiler ve katkı detaylarını açın.",
+    "detailsCta": "Ürün detaylarını gör",
+    "cardCta": "Detaylar",
+    "visitSiteCta": "Siteye git",
+    "roleShortLabel": "ROL",
+    "roleLabel": "ROLÜM",
+    "overviewLabel": "GENEL BAKIŞ",
+    "workedOnLabel": "ÜZERİNDE ÇALIŞTIKLARIM",
+    "contributionsLabel": "KATKILAR",
+    "closeLabel": "Kapat"
+  },
+  "resume": {
+    "index": "05",
+    "label": "Özgeçmiş",
+    "title": "Kısa özet.",
+    "summary": "Senior Software Developer. Nişantaşı Üniversitesi Bilgisayar Mühendisliği mezunu. Kartega’da 2021’den beri ürün arayüzleri geliştiriyor; React, Next.js, TypeScript ve Redux ile teslimat yapıyorum.",
+    "highlights": [
+      "Kartega — Senior Software Developer (Ocak 2025 — )",
+      "Kartega — Software Developer (Ocak 2021 — Ocak 2025)",
+      "Nişantaşı Üniversitesi, Bilgisayar Mühendisliği — tam burs, 3.49",
+      "İngilizce: konuşma / yazma / okuma orta"
+    ]
+  },
+  "contact": {
+    "index": "05",
+    "label": "İletişim",
+    "title": "Kıdemli bir frontend geliştiriciye ihtiyaç duyan bir iş mi var?",
+    "summary": "En hızlı yol e-posta. Genelde bir gün içinde dönüş yapıyorum.",
+    "emailLabel": "E-posta",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub"
+  },
+  "footer": {
+    "credit": "Furkan Kılıçer — Senior Frontend Developer",
+    "built": "© 2026 · Next.js ile geliştirildi."
+  },
+  "notFound": {
+    "code": "404",
+    "label": "Sayfa bulunamadı",
+    "title": "Bu adres sitede yok.",
+    "summary": "Link eski olabilir veya yazım hatası vardır. Ana sayfadan ürünlere veya iletişime geçebilirsin.",
+    "home": "Ana sayfaya dön",
+    "contact": "İletişim"
+  },
+  "a11y": {
+    "linkedin": "LinkedIn profili",
+    "github": "GitHub profili",
+    "toggleTheme": "Temayı değiştir",
+    "language": "Dil",
+    "scrollProgress": "Sayfa kaydırma",
+    "skipToContent": "İçeriğe geç"
+  }
+}
