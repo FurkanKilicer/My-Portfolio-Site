@@ -18,7 +18,7 @@ export const PERSON = {
   country: "TR",
   employer: "Kartega Yazılım ve Danışmanlık A.Ş.",
   linkedin: "https://www.linkedin.com/in/furkan-kilicer/",
-  github: "https://github.com/furkan-kilicer",
+  github: "https://github.com/FurkanKilicer",
 } as const;
 
 export function getMetadata(): Metadata {
