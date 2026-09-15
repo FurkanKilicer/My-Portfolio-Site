@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# cursor (SEO/GEO skill ve yerel ajan dosyaları)
+.cursor/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

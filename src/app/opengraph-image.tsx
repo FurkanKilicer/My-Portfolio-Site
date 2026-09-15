@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { SITE_NAME } from "@/lib/seo";
+import { PERSON_NAME } from "@/lib/seo";
 
 export const alt = "Furkan Kılıçer — Senior Frontend Developer";
 export const size = { width: 1200, height: 630 };
@@ -51,7 +51,7 @@ export default function OpenGraphImage() {
               lineHeight: 1.05,
             }}
           >
-            {SITE_NAME}
+            {PERSON_NAME}
           </div>
           <div style={{ color: "#f97316", fontSize: 32, fontWeight: 500 }}>
             Senior Frontend Developer

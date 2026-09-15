@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { getSiteUrl } from "@/lib/site";
 
-export const SITE_NAME = "Furkan Kılıçer";
+export const PERSON_NAME = "Furkan Kılıçer";
+/** Google sonuçlarındaki site adı (favicon yanındaki satır). Alan adı yazılmaz. */
+export const SITE_NAME = "Furkan Kılıçer — Portfolyo";
 export const SITE_TITLE = "Furkan Kılıçer — Senior Frontend Developer";
 export const SITE_TITLE_TEMPLATE = "%s · Furkan Kılıçer";
 
@@ -10,7 +12,7 @@ export const SITE_DESCRIPTION =
   "İstanbul’da Senior Frontend Developer. Kartega’da React, Next.js ve TypeScript ile fintech, pazaryeri ve kurumsal platformlar; micro-frontend arayüzleri geliştiriyor.";
 
 export const PERSON = {
-  name: SITE_NAME,
+  name: PERSON_NAME,
   jobTitle: "Senior Frontend Developer",
   email: "furkn.klcr@gmail.com",
   telephone: "+90 534 014 40 53",
@@ -108,7 +110,7 @@ export function getJsonLd() {
         "@id": websiteId,
         url: `${siteUrl}/`,
         name: SITE_NAME,
-        alternateName: ["Furkan Kilicer", "furkankilicer.com"],
+        alternateName: [PERSON_NAME, "Furkan Kilicer"],
         inLanguage: "tr",
         description: SITE_DESCRIPTION,
         publisher: { "@id": personId },
