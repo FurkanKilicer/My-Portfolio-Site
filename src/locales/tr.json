@@ -29,6 +29,13 @@
     "viewProducts": "Ürünleri Gör",
     "viewResume": "Özgeçmişi gör",
     "location": "İstanbul, Türkiye",
+    "visual": {
+      "caption": "Module Federation",
+      "host": "Host",
+      "catalog": "Katalog",
+      "checkout": "Ödeme",
+      "account": "Hesap"
+    },
     "stats": [
       {
         "label": "Deneyim yılı",
@@ -72,7 +79,31 @@
       "Ant Design, Ophelia, Tailwind ve SCSS/SASS (BEM)",
       "Axios ile REST API entegrasyonu",
       "Core Web Vitals, SSR/SSG ve rendering optimizasyonu"
-    ]
+    ],
+    "overview": {
+      "pitchLead": "Kartega’da Kıdemli Frontend Developer olarak ölçeklenebilir ",
+      "pitchAccent": "micro-frontend",
+      "pitchTail": " arayüzleri geliştiriyorum.",
+      "pitchBody": "Ocak 2021’den beri şirketteyim; Ocak 2025’ten itibaren yüksek trafikli B2B e-ticaret yüzeylerinde host/shell ve bağımsız remote modüller üzerinde çalışıyorum.",
+      "cta": "Merhaba de",
+      "clockLabel": "Yerel saat",
+      "proofQuote": "Modül başına build ve test süresini yaklaşık 15–20 dakikadan 2–3 dakikaya indirdik; ekipler bağımsız deploy edebilir hale geldi.",
+      "proofMeta": "Webpack 5 Module Federation · Kartega",
+      "proofNote": "Nişantaşı Üniversitesi, Bilgisayar Mühendisliği — tam burs (%100), 3.44 / 4.0",
+      "stackTitle": "Web geliştirme",
+      "stackBody": "Kıdemli Frontend Developer olarak modern web teknolojilerine odaklanıyorum.",
+      "stack": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Redux",
+        "MF",
+        "Ophelia"
+      ],
+      "visualTitle": "Arayüz",
+      "visualCaption": "Figma’dan Ophelia ve Ant Design bileşenlerine",
+      "visualMark": "ophelia"
+    }
   },
   "experience": {
     "index": "02",
@@ -854,6 +885,14 @@
     "toggleTheme": "Temayı değiştir",
     "language": "Dil",
     "scrollProgress": "Sayfa kaydırma",
-    "skipToContent": "İçeriğe geç"
+    "skipToContent": "İçeriğe geç",
+    "cycleFont": "Yazı tipini değiştir",
+    "fonts": {
+      "plex": "Plex",
+      "editorial": "Editorial",
+      "outfit": "Outfit",
+      "syne": "Syne",
+      "geist": "Geist"
+    }
   }
 }

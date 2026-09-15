@@ -1,11 +1,54 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useI18n } from "@/i18n/LanguageProvider";
 import { Container, SectionHeading, SectionShell } from "@/components/ui";
-import { IconCheck } from "@/components/icons";
+import { IconArrowRight, IconCheck } from "@/components/icons";
+import { AboutBentoSide } from "@/components/AboutBentoSide";
+
+function IstanbulClock({ locale }: { locale: string }) {
+  const [now, setNow] = useState("");
+  const [iso, setIso] = useState("");
+
+  useEffect(() => {
+    const tick = () => {
+      const date = new Date();
+      setIso(date.toISOString());
+      setNow(
+        date.toLocaleString(locale === "tr" ? "tr-TR" : "en-GB", {
+          timeZone: "Europe/Istanbul",
+          weekday: "short",
+          day: "numeric",
+          month: "short",
+          hour: "2-digit",
+          minute: "2-digit",
+        }),
+      );
+    };
+
+    tick();
+    const id = window.setInterval(tick, 1000);
+    return () => window.clearInterval(id);
+  }, [locale]);
+
+  if (!now) {
+    return (
+      <span className="tabular-nums text-sm text-muted" aria-hidden>
+        —
+      </span>
+    );
+  }
+
+  return (
+    <time className="tabular-nums text-sm text-foreground" dateTime={iso}>
+      {now}
+    </time>
+  );
+}
 
 export function About() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const overview = t.about.overview;
 
   return (
     <SectionShell id="about" glow="right" className="pt-24 sm:pt-32">
@@ -15,32 +58,45 @@ export function About() {
           label={t.about.label}
           title={t.about.title}
         />
-        <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14 reveal-stagger-items">
-          <div className="space-y-8">
-            {t.about.blocks.map((block) => (
-              <div key={block.heading}>
-                <h3 className="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-2">
-                  {block.heading}
-                </h3>
-                <p className="mt-3 max-w-xl text-base leading-7 text-muted">
-                  {block.body}
+
+        <div className="grid gap-4 lg:grid-cols-12 lg:grid-rows-[minmax(11rem,auto)_minmax(11rem,auto)]">
+          <article className="glow-card flex flex-col justify-between rounded-2xl border border-border bg-card p-6 sm:p-8 lg:col-span-9 lg:row-span-2">
+            <div>
+              <p className="max-w-3xl text-[1.35rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[1.7rem]">
+                {overview.pitchLead}
+                <span className="text-brand">{overview.pitchAccent}</span>
+                {overview.pitchTail}
+              </p>
+              <p className="mt-4 max-w-2xl text-sm leading-6 text-muted">{overview.pitchBody}</p>
+              <p className="mt-6 max-w-3xl text-base leading-7 text-foreground sm:text-lg sm:leading-8">
+                {overview.proofQuote}
+              </p>
+              <p className="mt-4 text-[11px] font-medium uppercase tracking-[0.18em] text-muted-2">
+                {overview.proofMeta}
+              </p>
+              <p className="mt-2 text-sm leading-6 text-muted">{overview.proofNote}</p>
+            </div>
+            <div className="mt-8 flex flex-wrap items-end justify-between gap-4">
+              <a
+                href="#contact"
+                className="glow-button inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-brand-foreground transition-colors hover:bg-brand-hover"
+              >
+                {overview.cta}
+                <IconArrowRight className="h-4 w-4" />
+              </a>
+              <div className="text-right">
+                <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-muted-2">
+                  {overview.clockLabel}
                 </p>
+                <p className="mt-1">
+                  <IstanbulClock locale={locale} />
+                </p>
+                <p className="mt-0.5 text-xs text-muted">{t.hero.location}</p>
               </div>
-            ))}
-          </div>
-          <aside className="glow-card h-fit rounded-2xl border border-border bg-card p-6 sm:p-7">
-            <h3 className="text-[11px] font-medium uppercase tracking-[0.2em] text-muted-2">
-              {t.about.expertiseTitle}
-            </h3>
-            <ul className="mt-5 space-y-3.5">
-              {t.about.expertise.map((item) => (
-                <li key={item} className="flex items-start gap-3 text-sm text-foreground">
-                  <IconCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </aside>
+            </div>
+          </article>
+
+          <AboutBentoSide />
         </div>
 
         <div

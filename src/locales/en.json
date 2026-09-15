@@ -29,6 +29,13 @@
     "viewProducts": "View Products",
     "viewResume": "View resume",
     "location": "Istanbul, Türkiye",
+    "visual": {
+      "caption": "Module Federation",
+      "host": "Host",
+      "catalog": "Catalog",
+      "checkout": "Checkout",
+      "account": "Account"
+    },
     "stats": [
       {
         "label": "Years of experience",
@@ -72,7 +79,31 @@
       "Ant Design, Ophelia, Tailwind, and SCSS/SASS (BEM)",
       "REST API integration with Axios",
       "Core Web Vitals, SSR/SSG, and rendering performance"
-    ]
+    ],
+    "overview": {
+      "pitchLead": "As a Senior Frontend Developer at Kartega I build scalable ",
+      "pitchAccent": "micro-frontend",
+      "pitchTail": " interfaces.",
+      "pitchBody": "I have been with the company since January 2021. Since January 2025 I work on high-traffic B2B commerce surfaces—host/shell and independently deployable remote modules.",
+      "cta": "Say hello",
+      "clockLabel": "Local time",
+      "proofQuote": "We cut per-module build and test time from about 15–20 minutes to 2–3 minutes so teams could deploy independently.",
+      "proofMeta": "Webpack 5 Module Federation · Kartega",
+      "proofNote": "Nişantaşı University, Computer Engineering — 100% scholarship, 3.44 / 4.0",
+      "stackTitle": "Web development",
+      "stackBody": "I'm a Senior Frontend Developer focusing on modern web technologies.",
+      "stack": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Redux",
+        "MF",
+        "Ophelia"
+      ],
+      "visualTitle": "Interface",
+      "visualCaption": "From Figma into Ophelia and Ant Design components",
+      "visualMark": "ophelia"
+    }
   },
   "experience": {
     "index": "02",
@@ -854,6 +885,14 @@
     "toggleTheme": "Toggle theme",
     "language": "Language",
     "scrollProgress": "Page scroll",
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "cycleFont": "Change typeface",
+    "fonts": {
+      "plex": "Plex",
+      "editorial": "Editorial",
+      "outfit": "Outfit",
+      "syne": "Syne",
+      "geist": "Geist"
+    }
   }
 }

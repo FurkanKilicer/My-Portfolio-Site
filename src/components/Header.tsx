@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/i18n/LanguageProvider";
+import { useFont } from "@/i18n/FontProvider";
 import { useTheme } from "@/i18n/ThemeProvider";
 import { Container } from "@/components/ui";
 import {
@@ -59,6 +60,7 @@ function NavLink({
 export function Header() {
   const { t, locale, setLocale } = useI18n();
   const { theme, toggleTheme } = useTheme();
+  const { font, cycleFont } = useFont();
   const [open, setOpen] = useState(false);
   const [progress, setProgress] = useState(0);
   const [active, setActive] = useState<NavKey | null>(null);
@@ -162,6 +164,20 @@ export function Header() {
           >
             <IconGitHub className="h-4 w-4" />
           </a>
+          <button
+            type="button"
+            onClick={cycleFont}
+            className="rounded-md px-2 py-2 text-muted transition-colors hover:text-foreground"
+            aria-label={`${t.a11y.cycleFont}: ${t.a11y.fonts[font]}`}
+            title={`${t.a11y.cycleFont}: ${t.a11y.fonts[font]}`}
+          >
+            <span className="flex items-baseline gap-1.5">
+              <span className="text-[13px] font-semibold leading-none">Aa</span>
+              <span className="hidden text-[10px] font-medium uppercase tracking-[0.14em] sm:inline">
+                {t.a11y.fonts[font]}
+              </span>
+            </span>
+          </button>
           <button
             type="button"
             onClick={toggleTheme}

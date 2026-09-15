@@ -2,6 +2,7 @@
 
 import { useI18n } from "@/i18n/LanguageProvider";
 import { Container, SectionShell } from "@/components/ui";
+import { HeroVisual } from "@/components/HeroVisual";
 import { IconArrowRight, IconPin } from "@/components/icons";
 
 export function Hero() {
@@ -10,40 +11,47 @@ export function Hero() {
   return (
     <SectionShell glow="hero" className="pt-16 sm:pt-24">
       <Container>
-        <div className="mb-6 flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-muted">
-          <span className="glow-dot h-1.5 w-1.5 animate-pulse rounded-full bg-brand" />
-          {t.hero.availability}
+        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(280px,26rem)] lg:gap-8">
+          <div>
+            <div className="mb-6 flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.18em] text-muted">
+              <span className="glow-dot h-1.5 w-1.5 animate-pulse rounded-full bg-brand" />
+              {t.hero.availability}
+            </div>
+            <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-6xl">
+              {t.hero.name}
+            </h1>
+            <p className="mt-4 text-lg font-medium sm:text-xl">
+              <span className="glow-text text-brand">{t.hero.roleLead}</span>
+              <span className="text-foreground">{t.hero.roleRest}</span>
+            </p>
+            <p className="mt-6 max-w-2xl text-base leading-8 text-muted sm:text-lg">
+              {t.hero.bio}
+            </p>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
+              <a
+                href="#products"
+                className="glow-button inline-flex items-center justify-center gap-2 rounded-lg bg-brand px-5 py-2.5 text-sm font-semibold text-brand-foreground transition-colors hover:bg-brand-hover"
+              >
+                {t.hero.viewProducts}
+                <IconArrowRight className="h-4 w-4" />
+              </a>
+              <a
+                href="#resume"
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-brand/30 bg-transparent px-5 py-2.5 text-sm font-medium text-foreground shadow-glow-soft transition-colors hover:border-brand hover:bg-card"
+              >
+                {t.hero.viewResume}
+                <IconArrowRight className="h-4 w-4" />
+              </a>
+              <p className="inline-flex items-center gap-2 text-sm text-muted sm:ml-2">
+                <IconPin className="h-4 w-4 text-brand" />
+                {t.hero.location}
+              </p>
+            </div>
+          </div>
+
+          <HeroVisual />
         </div>
-        <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-6xl">
-          {t.hero.name}
-        </h1>
-        <p className="mt-4 text-lg font-medium sm:text-xl">
-          <span className="glow-text text-brand">{t.hero.roleLead}</span>
-          <span className="text-foreground">{t.hero.roleRest}</span>
-        </p>
-        <p className="mt-6 max-w-2xl text-base leading-8 text-muted sm:text-lg">
-          {t.hero.bio}
-        </p>
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-          <a
-            href="#products"
-            className="glow-button inline-flex items-center justify-center gap-2 rounded-lg bg-brand px-5 py-2.5 text-sm font-semibold text-brand-foreground transition-colors hover:bg-brand-hover"
-          >
-            {t.hero.viewProducts}
-            <IconArrowRight className="h-4 w-4" />
-          </a>
-          <a
-            href="#resume"
-            className="inline-flex items-center justify-center gap-2 rounded-lg border border-brand/30 bg-transparent px-5 py-2.5 text-sm font-medium text-foreground shadow-glow-soft transition-colors hover:border-brand hover:bg-card"
-          >
-            {t.hero.viewResume}
-            <IconArrowRight className="h-4 w-4" />
-          </a>
-          <p className="inline-flex items-center gap-2 text-sm text-muted sm:ml-2">
-            <IconPin className="h-4 w-4 text-brand" />
-            {t.hero.location}
-          </p>
-        </div>
+
         <div className="mt-14 grid gap-4 sm:grid-cols-3">
           {t.hero.stats.map((stat) => {
             const isLink = "href" in stat && Boolean(stat.href);
