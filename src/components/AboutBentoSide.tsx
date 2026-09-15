@@ -152,7 +152,8 @@ function FigmaMark({
   useEffect(() => {
     const markNode = mark.current;
     const cursorNode = cursor.current;
-    if (!markNode || !cursorNode) return;
+    const frameNode = frame.current;
+    if (!markNode || !cursorNode || !frameNode) return;
 
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) return;
@@ -167,7 +168,7 @@ function FigmaMark({
         .to(cursorNode, { x: w * 0.55, y: h + 10, duration: 2, ease: "sine.inOut" })
         .to(cursorNode, { x: 10, y: h * 0.45, duration: 2, ease: "sine.inOut" })
         .to(cursorNode, { x: 18, y: -8, duration: 2, ease: "sine.inOut" });
-    }, frame.current);
+    }, frameNode);
 
     return () => ctx.revert();
   }, [size.w, size.h, word]);
