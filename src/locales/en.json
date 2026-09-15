@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Furkan Kılıçer — Senior Software Developer",
-    "description": "Senior Software Developer in Istanbul. At Kartega I ship product UIs with React, Next.js, and TypeScript—marketplaces, corporate sites, and payment surfaces."
+    "title": "Furkan Kılıçer — Senior Frontend Developer",
+    "description": "Senior Frontend Developer in Istanbul. At Kartega I build fintech, marketplace, and enterprise UIs with React, Next.js, TypeScript, and micro-frontends."
   },
   "nav": {
     "about": "About",
@@ -23,16 +23,16 @@
   "hero": {
     "availability": "Available for senior frontend roles",
     "name": "Furkan Kılıçer",
-    "roleLead": "Senior Software Developer",
-    "roleRest": " / Senior Frontend Developer",
-    "bio": "I have focused on web technologies since university. I have been shipping software since 2020, and since January 2021 I have been building, maintaining, and evolving real products at Kartega. I work with React, Next.js, TypeScript, and Redux on scalable, responsive interfaces.",
+    "roleLead": "Senior Frontend Developer",
+    "roleRest": "",
+    "bio": "5+ years of hands-on React and TypeScript. I build scalable UIs for fintech, marketplace, and enterprise platforms. At Kartega I was a key developer on a Webpack 5 Module Federation micro-frontend migration, shipping production interfaces with Redux, Ant Design, Ophelia, and REST APIs.",
     "viewProducts": "View Products",
     "viewResume": "View resume",
     "location": "Istanbul, Türkiye",
     "stats": [
       {
         "label": "Years of experience",
-        "value": "6+"
+        "value": "5+"
       },
       {
         "label": "Primary discipline",
@@ -49,103 +49,101 @@
   "about": {
     "index": "01",
     "label": "About",
-    "title": "Frontend engineering, with product context.",
+    "title": "Frontend at enterprise scale.",
     "blocks": [
       {
         "heading": "Background",
-        "body": "I graduated from Nişantaşı University Computer Engineering on a full scholarship (3.49 GPA). From school onward I built a habit of research, problem-solving, and picking up new technologies quickly."
+        "body": "I earned a B.Sc. in Computer Engineering from Nişantaşı University, Faculty of Engineering, on a full (100%) scholarship (2016–2020, 3.44 / 4.0 GPA)."
       },
       {
         "heading": "Current role",
-        "body": "I am a Senior Software Developer at Kartega Yazılım ve Danışmanlık A.Ş. I have been with the company since January 2021, and in the senior role since January 2025 — owning interface architecture, delivery, and maintenance with product teams."
+        "body": "I am a Senior Frontend Developer at Kartega Yazılım ve Danışmanlık A.Ş. I have been with the company since January 2021; since January 2025 I work on high-traffic B2B commerce surfaces—micro-frontend architecture, a host/shell, and independently deployable remote modules."
       },
       {
         "heading": "Engineering interests",
-        "body": "Clean code, SCSS/SASS structure, complex Redux flows, API integration, error handling, performance, and responsive interfaces. I work in a solution-oriented, disciplined way and keep learning."
+        "body": "Clean Code, component-driven architecture, Redux / Redux Toolkit / Context API, turning Figma into reusable responsive UI, Core Web Vitals, Git code review, and Jenkins CI/CD. I contribute to the Ophelia design system and Module Federation migrations."
       }
     ],
     "expertiseTitle": "Areas of expertise",
     "expertise": [
-      "React / Next.js application development",
-      "TypeScript and Redux state management",
-      "Ant Design, Tailwind, and Styled-components",
-      "REST API integration and error handling",
-      "Responsive, user-focused interfaces",
-      "Performance and site-structure optimization"
+      "Scalable apps with React, Next.js, and TypeScript",
+      "Webpack 5 Module Federation / micro-frontends",
+      "Redux, Redux Toolkit, and Context API",
+      "Ant Design, Ophelia, Tailwind, and SCSS/SASS (BEM)",
+      "REST API integration with Axios",
+      "Core Web Vitals, SSR/SSG, and rendering performance"
     ]
   },
   "experience": {
     "index": "02",
     "label": "Experience",
-    "title": "Six years of shipping production interfaces.",
-    "summary": "Career progression from agency web work to a senior frontend role at Kartega, shipping and evolving production product interfaces.",
+    "title": "Five years of shipping production interfaces.",
+    "summary": "From agency web work to a senior frontend role at Kartega: scalable UIs for fintech, marketplaces, and enterprise platforms.",
     "responsibilitiesLabel": "Responsibilities",
     "contributionsLabel": "Key contributions",
     "productsLabel": "Products",
     "items": [
       {
-        "role": "Senior Software Developer",
+        "role": "Senior Frontend Developer",
         "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
         "location": "Istanbul",
         "period": "January 2025 — Present",
-        "overview": "Own frontend architecture, delivery, and maintenance across production product surfaces with Next.js, React, and TypeScript.",
+        "overview": "I was a key developer on migrating a high-traffic B2B commerce admin from a monolith to Webpack 5 Module Federation micro-frontends.",
         "responsibilities": [
-          "Shape the architecture of Next.js + TypeScript product UIs",
-          "Own delivery quality across marketplaces, corporate sites, and operations surfaces",
-          "Strengthen sustainable code structure and performance practices in the team"
+          "Work on a data-heavy admin covering catalog, cart/checkout, and account management—tackling long builds, merge conflicts, and cross-team blast radius",
+          "Design and build a Next.js host/shell (auth, session, global nav, routing, shared providers) plus three independently deployable React remotes",
+          "Join the evaluation that chose Webpack 5 Module Federation over Single-SPA; integrate host and remotes with @module-federation/nextjs-mf"
         ],
         "contributions": [
-          "Clarified a shared frontend discipline across multiple product surfaces",
-          "Simplified delivery and maintenance on complex interfaces",
-          "Strengthened scalable state management with TypeScript and Redux"
+          "Cut per-module build and test time from about 15–20 minutes to 2–3 minutes so teams could deploy independently",
+          "Used Redux / Redux Toolkit and Context API; improved SSR hydration and re-renders; ECharts, i18next, and Next.js App Router",
+          "Contributed reusable pieces to the Ophelia design system; Git code review, cross-functional work, Jenkins CI/CD; Paynet payment UI"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Module Federation",
+          "Redux Toolkit",
+          "Ophelia"
+        ],
+        "products": [
+          "BEK Marketplace",
+          "DG Marketplace",
+          "Paynet Kurumsal",
+          "Kartega Site"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
+        "location": "Istanbul",
+        "period": "January 2021 — January 2025",
+        "overview": "I built responsive, SEO-friendly interfaces with React, Next.js, and TypeScript for production platforms including Lidio, Azerlotereya, and BEK/DG Marketplace.",
+        "responsibilities": [
+          "Improve frontend performance and Core Web Vitals on high-traffic platforms",
+          "Manage application state with Redux; build modular UI with Ant Design and Tailwind CSS",
+          "Turn Figma designs into reusable responsive components; integrate REST APIs with Axios"
+        ],
+        "contributions": [
+          "Improved Core Web Vitals by 40% on high-traffic platforms",
+          "Shipped Lidio, Azerlotereya, and BEK/DG Marketplace interfaces",
+          "Supported user-facing features through REST API integration"
         ],
         "stack": [
           "React",
           "Next.js",
           "TypeScript",
           "Redux",
-          "Tailwind",
-          "Ant Design"
+          "Ant Design",
+          "Axios"
         ],
         "products": [
+          "Lidio Lab",
+          "Lidio Site",
           "Azerlotereya",
           "BEK Marketplace",
-          "DG Marketplace",
-          "Kartega Site"
-        ]
-      },
-      {
-        "role": "Software Developer",
-        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
-        "location": "Istanbul",
-        "period": "January 2021 — January 2025",
-        "overview": "Designed, built, and maintained a wide range of customer and product interfaces from scratch into production.",
-        "responsibilities": [
-          "Build responsive interfaces with React, Redux, Next.js, Ant Design, and SCSS",
-          "Run REST API integration, error handling, and site optimization",
-          "Deliver end-to-end frontend for corporate, payments, and operations products"
-        ],
-        "contributions": [
-          "Shipped products including Azerlotereya, Footboss, Destekbilişim / Onlinebuyback, and Lidio LAB",
-          "Contributed to SistemBul, Hyundai Intraport, and Kemer Country interfaces",
-          "Owned maintenance and performance updates on production products"
-        ],
-        "stack": [
-          "React",
-          "Next.js",
-          "Redux",
-          "Ant Design",
-          "SCSS",
-          "Styled-components"
-        ],
-        "products": [
-          "Footboss",
-          "Destekbilişim",
-          "Onlinebuyback",
-          "Lidio LAB",
-          "SistemBul",
-          "Hyundai (Intraport)",
-          "THY Opet"
+          "DG Marketplace"
         ]
       },
       {
@@ -153,14 +151,14 @@
         "company": "Kodluyoruz",
         "location": "Istanbul",
         "period": "May 2021 — November 2021",
-        "overview": "Supported frontend training programs across two cohorts.",
+        "overview": "I reviewed HTML, CSS, JavaScript, and React code for web development bootcamp students and supported debugging.",
         "responsibilities": [
-          "Support training sessions in May–July and September–November",
-          "Help participants progress on frontend topics"
+          "Review student code and support debugging",
+          "Mentor on frontend architecture, modern web standards, and capstone projects"
         ],
         "contributions": [
-          "Provided troubleshooting and feedback in practical sessions",
-          "Accelerated learning on core React and web fundamentals"
+          "Accelerated learning through code review",
+          "Guided capstone work toward better frontend practices"
         ],
         "stack": [
           "React",
@@ -175,20 +173,20 @@
         "company": "Optimist Hub | 360 Kreatif Dijital Ajans",
         "location": "Istanbul",
         "period": "February 2020 — June 2020",
-        "overview": "Delivered customer-facing web pages and site updates for agency projects.",
+        "overview": "I turned UI/UX designs into responsive web interfaces for agency clients using HTML, CSS, JavaScript, and Bootstrap.",
         "responsibilities": [
-          "Build and update interfaces for agency work",
-          "Ship customer pages with HTML, JavaScript, and jQuery"
+          "Translate UI/UX designs into responsive web interfaces",
+          "Ship client pages with HTML, CSS, JavaScript, and Bootstrap"
         ],
         "contributions": [
           "Enabled fast iteration on campaign and corporate pages",
-          "Handled maintenance and small feature work on existing sites"
+          "Delivered design-to-browser responsive interfaces"
         ],
         "stack": [
           "HTML",
+          "CSS",
           "JavaScript",
-          "jQuery",
-          "CSS"
+          "Bootstrap"
         ],
         "products": []
       }
@@ -205,33 +203,43 @@
           "React",
           "Next.js",
           "TypeScript",
+          "JavaScript (ES6+)",
           "HTML5",
+          "CSS3",
           "Ant Design",
+          "Material UI",
           "Tailwind",
-          "SCSS",
+          "SCSS/SASS (BEM)",
           "Styled-components",
-          "Bootstrap",
           "Figma"
         ]
       },
       {
-        "title": "State and data",
+        "title": "Architecture and state",
         "items": [
+          "Micro Frontend",
+          "Webpack 5 Module Federation",
           "Redux",
           "Redux Toolkit",
+          "Context API",
           "REST API",
-          "jQuery"
+          "Axios"
         ]
       },
       {
-        "title": "Other",
+        "title": "Performance and tooling",
         "items": [
-          "AngularJS",
-          "ASP.Net",
+          "Core Web Vitals",
+          "Lighthouse",
+          "SSR / SSG",
+          "ECharts",
+          "i18next",
+          "Git",
+          "GitHub",
+          "ESLint",
           "Jenkins",
-          "UI/UX",
-          "Responsive design",
-          "English (intermediate)"
+          "CI/CD",
+          "English (intermediate — technical reading)"
         ]
       },
       {
@@ -266,7 +274,7 @@
         "image": "/products/azerlotereya.jpg",
         "period": "2024 — Present",
         "tagline": "Product UI for lottery and campaign operations",
-        "role": "Senior Software Developer — frontend lead",
+        "role": "Senior Frontend Developer",
         "overview": "I grew the production lottery product surface with Next.js and TypeScript. We shipped an interface that speeds up daily operations and stays maintainable.",
         "workedOn": [
           "Product UI architecture and page flows",
@@ -811,12 +819,12 @@
     "index": "05",
     "label": "Resume",
     "title": "Short summary.",
-    "summary": "Senior Software Developer. Computer Engineering graduate from Nişantaşı University. Building product UIs at Kartega since 2021 with React, Next.js, TypeScript, and Redux.",
+    "summary": "Senior Frontend Developer. Computer Engineering graduate from Nişantaşı University (full scholarship, 3.44 GPA). At Kartega since 2021 I ship fintech, marketplace, and enterprise UIs with React, Next.js, and TypeScript.",
     "highlights": [
-      "Kartega — Senior Software Developer (January 2025 — )",
-      "Kartega — Software Developer (January 2021 — January 2025)",
-      "Nişantaşı University, Computer Engineering — full scholarship, 3.49 GPA",
-      "English: speaking / writing / reading intermediate"
+      "Kartega — Senior Frontend Developer (January 2025 — )",
+      "Kartega — Frontend Developer (January 2021 — January 2025)",
+      "Nişantaşı University, Computer Engineering — 100% scholarship, 3.44 / 4.0",
+      "English: intermediate — technical reading"
     ]
   },
   "contact": {

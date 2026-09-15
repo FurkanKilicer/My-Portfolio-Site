@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import { getSiteUrl } from "@/lib/site";
 
 export const SITE_NAME = "Furkan Kılıçer";
-export const SITE_TITLE = "Furkan Kılıçer — Senior Software Developer";
+export const SITE_TITLE = "Furkan Kılıçer — Senior Frontend Developer";
 export const SITE_TITLE_TEMPLATE = "%s · Furkan Kılıçer";
 
 /** ~155 karakter; Google snippet uzunluğuna uygun, sayfa içeriğiyle aynı. */
 export const SITE_DESCRIPTION =
-  "İstanbul’da Senior Software Developer. Kartega’da React, Next.js ve TypeScript ile ürün arayüzleri; pazar yeri, kurumsal site ve ödeme yüzeyleri geliştiriyor.";
+  "İstanbul’da Senior Frontend Developer. Kartega’da React, Next.js ve TypeScript ile fintech, pazaryeri ve kurumsal platformlar; micro-frontend arayüzleri geliştiriyor.";
 
 export const PERSON = {
   name: SITE_NAME,
-  jobTitle: "Senior Software Developer",
+  jobTitle: "Senior Frontend Developer",
   email: "furkn.klcr@gmail.com",
   telephone: "+90 534 014 40 53",
   locality: "İstanbul",
@@ -37,7 +37,6 @@ export function getMetadata(): Metadata {
     publisher: PERSON.name,
     keywords: [
       "Furkan Kılıçer",
-      "Senior Software Developer",
       "Senior Frontend Developer",
       "React",
       "Next.js",
@@ -138,6 +137,7 @@ export function getJsonLd() {
           "Next.js",
           "TypeScript",
           "Redux",
+          "Micro Frontend",
           "Frontend development",
         ],
       },

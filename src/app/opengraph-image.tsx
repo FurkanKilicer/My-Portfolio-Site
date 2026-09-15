@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { SITE_NAME } from "@/lib/seo";
 
-export const alt = "Furkan Kılıçer — Senior Software Developer";
+export const alt = "Furkan Kılıçer — Senior Frontend Developer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -54,7 +54,7 @@ export default function OpenGraphImage() {
             {SITE_NAME}
           </div>
           <div style={{ color: "#f97316", fontSize: 32, fontWeight: 500 }}>
-            Senior Software Developer
+            Senior Frontend Developer
           </div>
           <div style={{ color: "#a1a1aa", fontSize: 26, lineHeight: 1.4, maxWidth: 860 }}>
             React, Next.js ve TypeScript ile ürün arayüzleri. İstanbul.

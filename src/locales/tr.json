@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Furkan Kılıçer — Senior Software Developer",
-    "description": "İstanbul’da Senior Software Developer. Kartega’da React, Next.js ve TypeScript ile ürün arayüzleri; pazar yeri, kurumsal site ve ödeme yüzeyleri geliştiriyor."
+    "title": "Furkan Kılıçer — Senior Frontend Developer",
+    "description": "İstanbul’da Senior Frontend Developer. Kartega’da React, Next.js ve TypeScript ile fintech, pazaryeri ve kurumsal platformlar; micro-frontend arayüzleri geliştiriyor."
   },
   "nav": {
     "about": "Hakkımda",
@@ -23,16 +23,16 @@
   "hero": {
     "availability": "Kıdemli frontend rollerine açığım",
     "name": "Furkan Kılıçer",
-    "roleLead": "Senior Software Developer",
-    "roleRest": " / Senior Frontend Developer",
-    "bio": "Üniversiteden bu yana web teknolojilerine odaklandım. 2020’den beri aktif olarak yazılım geliştiriyor, Ocak 2021’den beri Kartega bünyesinde gerçek ürünlerde tasarım, geliştirme ve bakım süreçlerini yürütüyorum. React, Next.js, TypeScript ve Redux ile ölçeklenebilir, duyarlı arayüzler kuruyorum.",
+    "roleLead": "Senior Frontend Developer",
+    "roleRest": "",
+    "bio": "React ve TypeScript’te 5+ yıl uygulamalı deneyim. Fintech, pazaryeri ve kurumsal platformlarda ölçeklenebilir arayüzler geliştiriyorum. Kartega’da Webpack 5 Module Federation micro-frontend geçişinin kilit geliştiricilerinden biriydim; Redux, Ant Design, Ophelia ve REST API entegrasyonuyla üretim arayüzleri teslim ediyorum.",
     "viewProducts": "Ürünleri Gör",
     "viewResume": "Özgeçmişi gör",
     "location": "İstanbul, Türkiye",
     "stats": [
       {
         "label": "Deneyim yılı",
-        "value": "6+"
+        "value": "5+"
       },
       {
         "label": "Ana disiplin",
@@ -49,118 +49,116 @@
   "about": {
     "index": "01",
     "label": "Hakkımda",
-    "title": "Ürün bağlamında frontend mühendisliği.",
+    "title": "Kurumsal ölçekte frontend.",
     "blocks": [
       {
         "heading": "Geçmiş",
-        "body": "Nişantaşı Üniversitesi Bilgisayar Mühendisliği’ni tam burslu bitirdim (3.49). Eğitim sürecinden itibaren araştırma, problem çözme ve yeni teknolojilere hızlı uyum konularında kendimi sürekli geliştirdim."
+        "body": "Nişantaşı Üniversitesi Mühendislik Fakültesi, Bilgisayar Mühendisliği lisansını tam burslu (%100) bitirdim (2016–2020, 3.44 / 4.0)."
       },
       {
         "heading": "Güncel rol",
-        "body": "Kartega Yazılım ve Danışmanlık A.Ş.’de Senior Software Developer olarak çalışıyorum. Ocak 2021’den bu yana şirket bünyesinde; Ocak 2025’ten itibaren senior unvanıyla ürün ekiplerinde arayüz mimarisi, teslimat ve bakım sorumluluğu alıyorum."
+        "body": "Kartega Yazılım ve Danışmanlık A.Ş.’de Kıdemli Frontend Developer olarak çalışıyorum. Ocak 2021’den beri şirket bünyesindeyim; Ocak 2025’ten itibaren yüksek trafikli B2B e-ticaret yüzeylerinde micro-frontend mimarisi, host/shell ve bağımsız remote modüller üzerinde çalışıyorum."
       },
       {
         "heading": "Mühendislik ilgileri",
-        "body": "Temiz kod, SCSS/SASS yapıları, Redux ile karmaşık akışlar, API entegrasyonu, hata yönetimi, performans ve duyarlı arayüzler. Öğrenmeye açık, çözüm odaklı ve disiplinli bir çalışma yaklaşımı benimsiyorum."
+        "body": "Clean Code, component-driven mimari, Redux / Redux Toolkit / Context API, Figma’dan duyarlı bileşene çeviri, Core Web Vitals, Git code review ve Jenkins CI/CD. Ophelia tasarım sistemine ve Module Federation geçişine katkı veriyorum."
       }
     ],
     "expertiseTitle": "Uzmanlık alanları",
     "expertise": [
-      "React / Next.js uygulama geliştirme",
-      "TypeScript ve Redux ile durum yönetimi",
-      "Ant Design, Tailwind ve Styled-components",
-      "REST API entegrasyonu ve hata yönetimi",
-      "Responsive ve kullanıcı odaklı arayüzler",
-      "Performans ve site yapısı optimizasyonu"
+      "React, Next.js ve TypeScript ile ölçeklenebilir uygulamalar",
+      "Webpack 5 Module Federation / micro-frontend",
+      "Redux, Redux Toolkit ve Context API",
+      "Ant Design, Ophelia, Tailwind ve SCSS/SASS (BEM)",
+      "Axios ile REST API entegrasyonu",
+      "Core Web Vitals, SSR/SSG ve rendering optimizasyonu"
     ]
   },
   "experience": {
     "index": "02",
     "label": "Deneyim",
-    "title": "Altı yıldır üretim arayüzleri teslim ediyorum.",
-    "summary": "Ajans işlerinden Kartega’da senior frontend rolüne: üretimdeki ürün arayüzlerini teslim etme ve büyütme.",
+    "title": "Beş yıldır üretim arayüzleri teslim ediyorum.",
+    "summary": "Ajans işlerinden Kartega’da kıdemli frontend rolüne: fintech, pazaryeri ve kurumsal platformlarda ölçeklenen arayüzler.",
     "responsibilitiesLabel": "Sorumluluklar",
     "contributionsLabel": "Katkılar",
     "productsLabel": "Ürünler",
     "items": [
       {
-        "role": "Senior Software Developer",
+        "role": "Kıdemli Frontend Developer",
         "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
         "location": "İstanbul",
         "period": "Ocak 2025 — Günümüz",
-        "overview": "Ürün arayüzlerinin mimarisini, teslimatını ve bakımını üstleniyor; Next.js, React ve TypeScript ile üretimdeki yüzeyleri yönetiyorum.",
+        "overview": "Yüksek trafikli bir B2B e-ticaret yönetim panelinin monolitikten Webpack 5 Module Federation micro-frontend mimarisine geçişinde kilit geliştiricilerden biriydim.",
         "responsibilities": [
-          "Next.js + TypeScript ürün arayüzlerinin mimarisini kurgulamak",
-          "Pazar yeri, kurumsal site ve operasyon panellerinde teslimat kalitesini sahiplenmek",
-          "Ekip içinde sürdürülebilir kod düzeni ve performans yaklaşımını güçlendirmek"
+          "Ürün kataloğu, sepet/ödeme ve hesap yönetimini kapsayan veri yoğun yönetim arayüzünde uzun build süreleri, merge conflict’ler ve ekipler arası etki alanı sorunlarını çözmeye yönelik çalışmak",
+          "Next.js host/shell (kimlik doğrulama, oturum, global navigasyon, routing, paylaşılan provider’lar) ile bağımsız deploy edilen üç React remote modülünü tasarlamak ve geliştirmek",
+          "Teknik değerlendirmede Single-SPA yerine Webpack 5 Module Federation seçimine katılmak; host ile remote’ları @module-federation/nextjs-mf ile entegre etmek"
         ],
         "contributions": [
-          "Çoklu ürün yüzeylerinde ortak frontend disiplinini netleştirdim",
-          "Karmaşık arayüzlerde teslimat ve bakım süreçlerini sadeleştirdim",
-          "TypeScript ve Redux ile ölçeklenen durum yönetimini güçlendirdim"
+          "Modül başına build ve test süresini yaklaşık 15–20 dakikadan 2–3 dakikaya indirdik; ekipler bağımsız deploy edebilir hale geldi",
+          "Redux / Redux Toolkit ve Context API, SSR hydration, gereksiz re-render azaltma; ECharts, i18next ve Next.js App Router",
+          "Ophelia tasarım sistemine yeniden kullanılabilir bileşenler; Git code review, çapraz ekipler ve Jenkins CI/CD; Paynet ödeme deneyiminin frontend/UI tarafı"
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Module Federation",
+          "Redux Toolkit",
+          "Ophelia"
+        ],
+        "products": [
+          "BEK Marketplace",
+          "DG Marketplace",
+          "Paynet Kurumsal",
+          "Kartega Site"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
+        "location": "İstanbul",
+        "period": "Ocak 2021 — Ocak 2025",
+        "overview": "React, Next.js ve TypeScript ile Lidio, Azerlotereya ve BEK/DG Marketplace gibi gerçek kullanıcıların kullandığı kurumsal platformlarda duyarlı, SEO dostu arayüzler geliştirdim.",
+        "responsibilities": [
+          "Yüksek trafikli platformlarda frontend performansını ve Core Web Vitals metriklerini iyileştirmek",
+          "Redux ile uygulama state yönetimi; Ant Design ve Tailwind CSS ile modüler, yeniden kullanılabilir UI bileşenleri",
+          "Figma tasarımlarını duyarlı bileşenlere çevirmek; Axios ile RESTful API entegrasyonu"
+        ],
+        "contributions": [
+          "Yüksek trafikli platformlarda Core Web Vitals metriklerini %40 iyileştirdim",
+          "Lidio, Azerlotereya ve BEK/DG Marketplace arayüzlerini teslim ettim",
+          "Kullanıcıya yönelik özellikleri REST API entegrasyonuyla destekledim"
         ],
         "stack": [
           "React",
           "Next.js",
           "TypeScript",
           "Redux",
-          "Tailwind",
-          "Ant Design"
+          "Ant Design",
+          "Axios"
         ],
         "products": [
+          "Lidio Lab",
+          "Lidio Site",
           "Azerlotereya",
           "BEK Marketplace",
-          "DG Marketplace",
-          "Kartega Site"
+          "DG Marketplace"
         ]
       },
       {
-        "role": "Software Developer",
-        "company": "Kartega Yazılım ve Danışmanlık A.Ş.",
-        "location": "İstanbul",
-        "period": "Ocak 2021 — Ocak 2025",
-        "overview": "Sıfırdan tasarım, geliştirme ve bakımla çok sayıda müşteri ve ürün arayüzünü üretime aldım.",
-        "responsibilities": [
-          "React, Redux, Next.js, Ant Design ve SCSS ile duyarlı arayüzler geliştirmek",
-          "REST API entegrasyonu, hata yönetimi ve site optimizasyonları yürütmek",
-          "Kurumsal, ödeme ve operasyon ürünlerinde uçtan uca frontend teslimatı yapmak"
-        ],
-        "contributions": [
-          "Azerlotereya, Footboss, Destekbilişim / Onlinebuyback ve Lidio LAB gibi ürünleri teslim ettim",
-          "SistemBul, Hyundai Intraport ve Kemer Country arayüzlerinde yer aldım",
-          "Üretimdeki ürünlerde bakım ve performans güncellemelerini yürüttüm"
-        ],
-        "stack": [
-          "React",
-          "Next.js",
-          "Redux",
-          "Ant Design",
-          "SCSS",
-          "Styled-components"
-        ],
-        "products": [
-          "Footboss",
-          "Destekbilişim",
-          "Onlinebuyback",
-          "Lidio LAB",
-          "SistemBul",
-          "Hyundai (Intraport)",
-          "THY Opet"
-        ]
-      },
-      {
-        "role": "Teaching Assistant",
+        "role": "Öğretim Asistanı",
         "company": "Kodluyoruz",
         "location": "İstanbul",
         "period": "Mayıs 2021 — Kasım 2021",
-        "overview": "İki dönemde frontend eğitim süreçlerinde katılımcılara asistanlık yaptım.",
+        "overview": "Web geliştirme bootcamp öğrencilerine HTML, CSS, JavaScript ve React kod incelemesi ve hata ayıklama desteği verdim.",
         "responsibilities": [
-          "Mayıs–Temmuz ve Eylül–Kasım dönemlerinde eğitimlere destek olmak",
-          "Katılımcıların frontend konularında ilerlemesine yardımcı olmak"
+          "Öğrenci kodlarını incelemek ve debugging süreçlerini desteklemek",
+          "Frontend mimarisi, modern web standartları ve capstone projeleri için mentorluk yapmak"
         ],
         "contributions": [
-          "Uygulama oturumlarında sorun çözme ve geri bildirim sağladım",
-          "Temel React ve web konularında öğrenme sürecini hızlandırdım"
+          "Code review ile öğrenme sürecini hızlandırdım",
+          "Capstone projelerinde en iyi pratikler konusunda yönlendirdim"
         ],
         "stack": [
           "React",
@@ -175,20 +173,20 @@
         "company": "Optimist Hub | 360 Kreatif Dijital Ajans",
         "location": "İstanbul",
         "period": "Şubat 2020 — Haziran 2020",
-        "overview": "Ajans projelerinde müşteri yüzlü web sayfaları ve site güncellemeleri teslim ettim.",
+        "overview": "Ajans müşterileri için UI/UX tasarımlarını HTML, CSS, JavaScript ve Bootstrap ile duyarlı web arayüzlerine dönüştürdüm.",
         "responsibilities": [
-          "Ajans işlerinde arayüz geliştirme ve güncelleme yapmak",
-          "HTML, JavaScript ve jQuery ile müşteri sayfaları teslim etmek"
+          "UI/UX tasarımlarını duyarlı web arayüzlerine çevirmek",
+          "HTML, CSS, JavaScript ve Bootstrap ile müşteri sayfaları teslim etmek"
         ],
         "contributions": [
           "Kampanya ve kurumsal sayfalarda hızlı iterasyon sağladım",
-          "Mevcut sitelerde bakım ve küçük özellik geliştirmeleri yaptım"
+          "Tasarımdan tarayıcıya duyarlı arayüz teslimi yaptım"
         ],
         "stack": [
           "HTML",
+          "CSS",
           "JavaScript",
-          "jQuery",
-          "CSS"
+          "Bootstrap"
         ],
         "products": []
       }
@@ -205,33 +203,43 @@
           "React",
           "Next.js",
           "TypeScript",
+          "JavaScript (ES6+)",
           "HTML5",
+          "CSS3",
           "Ant Design",
+          "Material UI",
           "Tailwind",
-          "SCSS",
+          "SCSS/SASS (BEM)",
           "Styled-components",
-          "Bootstrap",
           "Figma"
         ]
       },
       {
-        "title": "Durum ve veri",
+        "title": "Mimari ve durum",
         "items": [
+          "Micro Frontend",
+          "Webpack 5 Module Federation",
           "Redux",
           "Redux Toolkit",
+          "Context API",
           "REST API",
-          "jQuery"
+          "Axios"
         ]
       },
       {
-        "title": "Diğer",
+        "title": "Performans ve araçlar",
         "items": [
-          "AngularJS",
-          "ASP.Net",
+          "Core Web Vitals",
+          "Lighthouse",
+          "SSR / SSG",
+          "ECharts",
+          "i18next",
+          "Git",
+          "GitHub",
+          "ESLint",
           "Jenkins",
-          "UI/UX",
-          "Responsive design",
-          "İngilizce (orta)"
+          "CI/CD",
+          "İngilizce (orta — teknik okuma)"
         ]
       },
       {
@@ -266,7 +274,7 @@
         "image": "/products/azerlotereya.jpg",
         "period": "2024 — Günümüz",
         "tagline": "Piyango ve kampanya operasyonu için ürün arayüzü",
-        "role": "Senior Software Developer — frontend lead",
+        "role": "Kıdemli Frontend Developer",
         "overview": "Next.js ve TypeScript ile üretimdeki piyango ürün yüzeyini büyüttüm. Operasyon ekiplerinin günlük işini hızlandıran, bakımı sürdürülebilir bir arayüz kurduk.",
         "workedOn": [
           "Ürün arayüzü mimarisi ve sayfa akışları",
@@ -811,12 +819,12 @@
     "index": "05",
     "label": "Özgeçmiş",
     "title": "Kısa özet.",
-    "summary": "Senior Software Developer. Nişantaşı Üniversitesi Bilgisayar Mühendisliği mezunu. Kartega’da 2021’den beri ürün arayüzleri geliştiriyor; React, Next.js, TypeScript ve Redux ile teslimat yapıyorum.",
+    "summary": "Senior Frontend Developer. Nişantaşı Üniversitesi Bilgisayar Mühendisliği mezunu (tam burs, 3.44). Kartega’da 2021’den beri React, Next.js ve TypeScript ile fintech, pazaryeri ve kurumsal arayüzler teslim ediyorum.",
     "highlights": [
-      "Kartega — Senior Software Developer (Ocak 2025 — )",
-      "Kartega — Software Developer (Ocak 2021 — Ocak 2025)",
-      "Nişantaşı Üniversitesi, Bilgisayar Mühendisliği — tam burs, 3.49",
-      "İngilizce: konuşma / yazma / okuma orta"
+      "Kartega — Kıdemli Frontend Developer (Ocak 2025 — )",
+      "Kartega — Frontend Developer (Ocak 2021 — Ocak 2025)",
+      "Nişantaşı Üniversitesi, Bilgisayar Mühendisliği — tam burs (%100), 3.44 / 4.0",
+      "İngilizce: orta — teknik doküman okuma"
     ]
   },
   "contact": {
